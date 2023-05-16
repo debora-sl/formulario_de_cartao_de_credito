@@ -1,0 +1,12 @@
+.formulario{
+    border: thin solid #e05a5a;
+    border-radius: 30px;
+    height: 300px;
+    margin-top: -30px;
+
+}
+
+.formulario__div{
+    border: thin solid #4431f1;
+    margin-top: 80px;  
+}

@@ -1,0 +1,50 @@
+.cartao-de-credito{
+    background: #1d1c1c;
+    border: thin solid #111010;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+
+    padding: 10px;
+    width: 400px;
+}
+
+.cartao-de-credito__cabecalho{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.cartao-de-credito__cabecalho__chip{
+    height: 60px;
+    width: 90px;
+    margin-right: 120px;
+}
+
+.cartao-de-credito__cabecalho__logo{
+    color: #2db820;
+    font-family: cursive;
+    text-decoration-line: underline;
+}
+
+.cartao-de-credito__corpo__numeracao{
+
+    color: #7cbb77;   
+    font-size: 2em;
+    justify-content: center;
+    margin-left: 60px;
+    padding: 5x;
+    text-align: center;
+    width: 70%;
+}
+
+.cartao-de-credito__corpo__rodape{
+
+    color: #7cbb77; 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
