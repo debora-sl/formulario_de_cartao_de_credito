@@ -1,6 +1,5 @@
 .cartao-de-credito{
-    background: #1d1c1c;
-    border: thin solid #111010;
+    background: #272626;
     border-radius: 20px;
     display: flex;
     flex-direction: column;

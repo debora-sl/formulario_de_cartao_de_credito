@@ -6,7 +6,7 @@ Dividir para conquistar:
 * Criar a página (index.HTML); **FEITO ✔**
 * Desenvolver um modelo de cartão de crédito; **FEITO ✔**
 * Estilizar o cartão de crédito; **FEITO ✔**
-* Desenvolver o formulário; 
+* Desenvolver o formulário; **FEITO ✔**
 * Estilizar o formulário;
 * Pegar os dados inseridos no formulário via JS;
 * Exibir os dados no cartão de crédito;

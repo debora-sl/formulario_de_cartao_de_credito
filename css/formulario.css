@@ -22,7 +22,7 @@
 
 .formulario__titulo{
     font-size: 1em;
-    color: #2122227a;
+    color: #030303ec;
 }
 
 .formulario__input{
@@ -30,5 +30,18 @@
     border-radius: 5px;
     background-color: #50973b;
     padding: 5px;
+    text-align: center;
     width: 300px;
+}
+
+.formulario__opcoes{
+    background-color: #50973b;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 170px;
+}
+
+.formulario__opcoes__conteudo{
+    text-align: center;
 }

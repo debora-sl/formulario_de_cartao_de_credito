@@ -5,3 +5,7 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
+main{
+    margin-bottom: 2em;
+}
