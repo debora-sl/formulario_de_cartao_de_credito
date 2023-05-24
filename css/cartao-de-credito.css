@@ -3,11 +3,11 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    height: 200px;
-    margin-left: 40px;
-    padding: 10px;
+    height: 250px;
+    margin-left: 100px;
+    padding: 5px;
     position: relative; /* colocando o elemento cartão na frente da div do formulário */
-    width: 400px;
+    width: 500px;
 }
 
 .cartao-de-credito__cabecalho{
@@ -35,16 +35,52 @@
     font-size: 2em;
     justify-content: center;
     margin-left: 60px;
-    padding: 5x;
+    padding: 3px;
     text-align: center;
     width: 70%;
 }
 
 .cartao-de-credito__corpo__rodape{
-
     color: #7cbb77; 
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    margin-top: 20px;
+    text-align: center;
 
 }
+
+.cartao-de-credito__rodape__titular{
+    color: #2db820;
+}
+
+.cartao-de-credito__rodape__validade{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cartao-de-credito__rodape__titulo-validade{
+    height: 5px;
+    margin-left: 5px;
+}
+
+.cartao-de-credito__rodape__ano{
+
+    color: #2db820;
+    margin-left: -55px;
+    margin-top: 25px;
+    padding: 3px;
+    text-align: center;
+}
+
+.cartao-de-credito__rodape__mes{
+
+    color: #2db820;
+    margin-left: 1px;
+    margin-right: 5px;
+    margin-top: 25px;
+    padding: 3px;
+    text-align: center;
+}
+

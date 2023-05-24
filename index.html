@@ -22,47 +22,37 @@
                 <p class="cartao-de-credito__cabecalho__logo"> $ Credi Crédito $</p>
             </div>
             <div class="cartao-de-credito__corpo__numeracao">
-                <label for="titular">#### #### #### ####</label>
+                <p data-cartao-numero>#### #### #### ####</p>
             </div>
             <div class="cartao-de-credito__corpo__rodape">
-                <label for="">Titular</label>
-                <label for="">Validade</label>
+                <label for="titular">Titular
+                    <p class="cartao-de-credito__rodape__titular" data-cartao-titular></p>
+                </label>
+                
+                <div class="cartao-de-credito__rodape__validade">
+                    <label for="" class="cartao-de-credito__rodape__titulo-validade">Validade</label>
+                        <p data-cartao-titular class="cartao-de-credito__rodape__ano" data-cartao-ano></p>
+                        <p data-cartao-titular class="cartao-de-credito__rodape__mes" data-cartao-mes></p>
+                </div>
             </div>           
         </div>
 
-        <form action="" class="formulario">
+        <form action="" class="formulario" data-formulario>
             <div class="formulario__div">
                 <p class="formulario__titulo">Titular</p>
-                <input type="text" name="titular" id="titular" class="formulario__input">
+                <input type="text" name="titular" id="titular" class="formulario__input" data-formulario-titular>
             </div>
             <div class="formulario__div">
-                <p class="formulario__titulo">Ano</p>
-                <select name="ano" id="" required="required" class="formulario__opcoes">
-                    <option value="" class="formulario__opcoes__conteudo">Escolha o ano</option>
-                    <option value="2024" class="formulario__opcoes__conteudo">2024</option>
-                    <option value="2025" class="formulario__opcoes__conteudo">2025</option>
-                    <option value="2026" class="formulario__opcoes__conteudo">2026</option>
-                    <option value="2027" class="formulario__opcoes__conteudo">2027</option>
-                    <option value="2028" class="formulario__opcoes__conteudo">2028</option>
-                </select>
+                <label for="" class="formulario__titulo" >Ano</label>
+                <input type="text" data-formulario-ano>
             </div>
             <div class="formulario__div">
-                <p class="formulario__titulo">Mes</p>
-                <select name="ano" id="" required="required" class="formulario__opcoes">
-                    <option value="" class="formulario__opcoes__conteudo">Escolha o mês</option>
-                    <option value="janeiro" class="formulario__opcoes__conteudo">Janeiro</option>
-                    <option value="fevereiro" class="formulario__opcoes__conteudo">Fevereiro</option>
-                    <option value="marco" class="formulario__opcoes__conteudo">Março</option>
-                    <option value="abril" class="formulario__opcoes__conteudo">Abril</option>
-                    <option value="maio" class="formulario__opcoes__conteudo">Maio</option>
-                    <option value="junho" class="formulario__opcoes__conteudo">Junho</option>
-                    <option value="julho" class="formulario__opcoes__conteudo">Julho</option>
-                    <option value="agosto" class="formulario__opcoes__conteudo">Agosto</option>
-                    <option value="setembro" class="formulario__opcoes__conteudo">Setembro</option>
-                    <option value="outubro" class="formulario__opcoes__conteudo">Outubro</option>
-                    <option value="novembro" class="formulario__opcoes__conteudo">Novembro</option>
-                    <option value="dezembro" class="formulario__opcoes__conteudo">Dezembro</option>
-                </select>
+                <label for="" class="formulario__titulo">Mês do Vencimento</label>
+                <input type="text" data-formulario-mes>
+            </div>
+
+            <div class="formulario__div">
+                <input type="submit" value="Gerar">
             </div>
 
         </form>
